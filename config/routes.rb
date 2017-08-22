@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   get '/hello/hi', to: 'hello#hi'
   get '/whatsup/wassup', to: 'whatsup#wassup'
+  get '/whatsup/weird', to: 'whatsup#weird'
 end
